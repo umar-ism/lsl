@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    /*position: fixed;*/
+    display: flex;
+    background-color: #222222;
+}
+.left{
+    width: 180px;
+    height: 80px;
+    display: flex;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    width: 200px;
+    height: 50px;
+}
+.british-council{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.british-council img{
+    width: 150px;
+    height: 50px;
+}
+.right{
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 90px;
+}
+.right img{
+    width: 150px;
+    height: 50px;
+}
+.nav-bar{
+    width: 600px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: #222222;
+    border: 2px solid blue;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s;
+    font-size: 15px;
+}
+.nav-bar button:hover{
+    border-radius: 14px;
+    transition: 0.5s;
+    font-size: 14.2px;
+}

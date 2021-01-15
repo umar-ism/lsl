@@ -1,0 +1,16 @@
+.main{
+    width: 100%;
+    height: auto;
+    background-color: #f2f2fd;
+}
+.lsl-image{
+    width: 1349px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.lsl-image img{
+    width: 700px;
+    height: 400px;
+}
