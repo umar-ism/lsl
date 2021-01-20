@@ -1,16 +1,23 @@
 .main{
     width: 100%;
-    height: auto;
-    background-color: #f2f2fd;
+    height: 1000px;
+    /*background-color: #f2f2fd;*/
+    display: flex;
+    background-color: blue;
 }
-.lsl-image{
-    width: 1349px;
-    height: 500px;
+.image-lsl{
+    width: 65%;
+    height: 600px;
+    border: 2px solid black;
+}
+.infos-lsl{
+    width: 30%;
+    height: 600px;
+    border: 2px solid black;
+}
+.about-lsl{
+    width: 100%;
+    height: 1000px;
     display: flex;
     justify-content: center;
-    align-items: center;  
-}
-.lsl-image img{
-    width: 700px;
-    height: 400px;
 }
