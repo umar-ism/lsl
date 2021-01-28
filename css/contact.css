@@ -1,0 +1,69 @@
+.contact-links{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.contact-links-wrapper{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.container-links{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-icon{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-icon i{
+    font-size: 50px;
+    color: blue;
+}
+.contact-text{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #302e4d;
+}
+.contact-about{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: #302e4d;
+}
+.contact-filling{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.contact-center{
+    width: 50%;
+    height: 300px;
+    display: flex;
+}
+.name-email{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.name-email button{
+    width: 45%;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid ;
+}
