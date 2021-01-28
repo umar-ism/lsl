@@ -1,3 +1,6 @@
+.home{
+    margin-bottom: 100px;
+}
 
 .hidden {
     display: none!important;
@@ -84,12 +87,13 @@
 .timeline{
     background-color: #fdf9ff;
     padding: 30px 15px;
-    border: 1px solid #d4d4e3;
+    border: 1px solid #302e4d;
     border-radius: 10px;
     width: 100%;
     position: relative;
     -webkit-box-shadow: 0px 0px 20px -1px #C4C4C4; 
     box-shadow: 0px 0px 20px -1px #C4C4C4;
+
 }
 .timeline .timeline-item{
     position: relative;
