@@ -1,0 +1,22 @@
+@media(max-width: 767px){
+    body .home .personal-info,
+    .study .education,
+    .study .experience{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media(max-width: 1191px){
+    .personal-info .row .info-item p span{
+        display: block;
+        margin-left: 0;
+    }
+}
+@media(max-width: 1117px){
+    .row .timetable-wrapper{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
